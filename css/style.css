@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #19a2ae;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem-acima {
+    position: absolute;
+    z-index: -1;
+    top: -60%;
+    left: -19%;
+    max-width: 80rem;
+}
+.imagem-abaixo {
+    position: absolute;
+    z-index: -1;
+    right: -15%;
+    bottom: -70%;
+    max-width: 80rem;
+}
+.conteiner {
+    max-width: 40rem;
+    margin: 8rem auto;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+}
+.imagem-topo img {
+    max-width: 40rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.imagem-perfil img {
+    max-width: 10rem;
+    border-radius: 10rem;
+    border: 0.5rem solid #ffffff;
+    position: absolute;
+    z-index: 5;
+    top: 19rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bio-perfil {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cima {
+    display: flex;
+    align-items: center;
+}
+.nome {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.idade {
+    font-size: 1.6rem;
+    padding-left: 0.7rem;
+    color: #6a6f81;
+}
+.localidade{
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    color: #6a6f81;
+}
+.status-perfil {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.status-perfil h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.status-perfil p {
+    font-size: 1.6rem;
+    color: #6a6f81;
+    margin-bottom: 4rem;
+}
